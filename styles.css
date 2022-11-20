@@ -5,7 +5,7 @@
     border: 1px solid black;
     box-sizing: border-box;
   }
-*/
+/*
 
 
   /* configuración del header-menu*/
@@ -227,7 +227,7 @@
   /* configuracion del area quote */
 
   .container-quote {
-    border: 10px solid purple; 
+/*    border: 10px solid purple;  */
     position:relative;     
     left: 0px;
     width: 100%;
@@ -238,41 +238,35 @@
   }
 
   #quote {
-    border: 10px solid red;
+/*    border: 10px solid red; */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-    width: 65%;  
+    flex-direction: column;     
+    width: 60%;  
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
-
-  .container-quote-text {
-  border: 10px solid gold;   
-    width: 65%; 
-  }
-
-  .quote-text {
-    display: flex;
-    justify-content: flex-end;
-    
-  }
-  
-  .italic {
-    font-size: 36px;
+ 
+  .quote-italic {
+    font-size: 36px;    
+    color: #000;    
+    font-family: Ubuntu, Cantarell;
     font-style: italic;
-    color: #000;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
-  .bold {
-    font-size: 32px;
-    font-weight: bold;
-    justify-self: right;
+  .quote-bold {
+    font-size: 24px;
+    font-weight: bold;    
     color: #000;
-    padding-right: 30px;
+    align-self: flex-end;
+    padding-right: 50px;
+    margin-top: 0px;    
   }
 
 
-  
+
 /* configuración del area action */ 
 
   .container-action {
