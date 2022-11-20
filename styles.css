@@ -271,11 +271,10 @@
 
   .container-action {
 /*    border: 5px solid red; */
-    position:relative; 
-    top: 2040px;
+    position:relative;     
     left: 0px;
     width: 100%;
-    height: 700px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,11 +282,11 @@
   }
 
   #action {
-    border: #3882f6;
+/*    border: 5px solid black; */
     background-color: #3882f6;
-    border-radius: 20px;
-    width: 65%;
-    height: 300px;
+    border-radius: 10px;
+    width: 75%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +294,8 @@
 
   .container-action-text {
 /*    border: 5px solid magenta; */
-    width: 65%;
+    width: 78%;
+    height: 140px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -303,15 +303,17 @@
   }
 
   .action-text {
-/*    border: 10px solid whitesmoke; */
+/*    border: 5px solid blue;  */
     width: 80%;
+    height: 130px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;       
   }
 
   .action-header {
-    font-size: 42px;
+/*    border: 5px solid purple;  */
+    font-size: 30px;
     color: white;
     font-weight: bold;
     padding-bottom: 0px;
@@ -321,33 +323,34 @@
   .text-action {     
 /*    border: 5px solid cyan;   */
     width: auto;
-    font-size: 36px;
+    font-size: 18px;
     color: white;
     font-style: normal;
+    margin-top: 0px;
     margin-bottom: 50px;
   }
 
   .action-button {
-/*    border: 5px solid pink; */
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;    
+/*    border: 5px solid pink;  */
+    width: 160px;  
   }
 
   #button-action {    
     align-self: center;
-    border: 5px solid white;
+  /*  border: 3px solid white; */   /*si dejo esta linea se pierde el click */
     border-radius: 10px;
     background-color: #3882f6;
-    font-size: 20px;
+    font-size: 18px;
     color: #e5e7eb;
-    padding: 5px 50px;
+    padding: 5px 30px;
     margin: 0px;
     font-weight: bold;
-    width: 190px;
+    width: 160px;
     height: 45px;
   }
+
+
+
 
   /* configuracion de footer */
 
